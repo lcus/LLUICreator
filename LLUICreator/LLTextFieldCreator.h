@@ -8,8 +8,6 @@
 
 #import "LLViewCreator.h"
 
-
-
 @interface LLTextFieldCreator : LLViewCreator
 
 
@@ -28,6 +26,7 @@
 @property(nonatomic,copy,readonly) LLTextFieldCreator * (^clearButtonMode)(UITextFieldViewMode model);
 @property(nonatomic,copy,readonly) LLTextFieldCreator * (^rightView)(UIView *rightView);
 @property(nonatomic,copy,readonly) LLTextFieldCreator * (^leftView)(UIView *leftView);
+
 @end
 
 @interface UITextField (LLTextFieldCreator)

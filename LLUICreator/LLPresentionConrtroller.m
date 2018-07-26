@@ -73,7 +73,7 @@
     _visualView.alpha =0.f;
     
     [transitCoordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext>  _Nonnull context) {
-        _visualView.alpha = 0.4f;
+        self->_visualView.alpha = 0.4f;
     } completion:NULL];
     
     
@@ -100,7 +100,7 @@
     
     id<UIViewControllerTransitionCoordinator> transitCoordinator= self.presentingViewController.transitionCoordinator;
     [transitCoordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext>  _Nonnull context) {
-       _visualView.alpha =0.f;
+        self->_visualView.alpha =0.f;
     } completion:NULL];
     
 }

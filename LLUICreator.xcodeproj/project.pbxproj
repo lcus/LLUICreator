@@ -25,7 +25,6 @@
 		120608CB20BF783D009B0450 /* LLNetWorkWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 120608A320BF7839009B0450 /* LLNetWorkWidget.h */; };
 		120608CC20BF783D009B0450 /* LDTextFieldHandel.h in Headers */ = {isa = PBXBuildFile; fileRef = 120608A420BF7839009B0450 /* LDTextFieldHandel.h */; };
 		120608CD20BF783D009B0450 /* UILabel+YBAttributeTextTapAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 120608A520BF783A009B0450 /* UILabel+YBAttributeTextTapAction.h */; };
-		120608CE20BF783D009B0450 /* LDPlacehodelTextVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 120608A620BF783A009B0450 /* LDPlacehodelTextVIew.m */; };
 		120608CF20BF783D009B0450 /* UIView+ConvenientInit.h in Headers */ = {isa = PBXBuildFile; fileRef = 120608A720BF783A009B0450 /* UIView+ConvenientInit.h */; };
 		120608D020BF783D009B0450 /* LLNetWorkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 120608A820BF783A009B0450 /* LLNetWorkManager.h */; };
 		120608D120BF783D009B0450 /* LLCycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 120608A920BF783A009B0450 /* LLCycleScrollView.h */; };
@@ -47,6 +46,7 @@
 		120608E120BF783D009B0450 /* LDLocalConfigDataHandel.m in Sources */ = {isa = PBXBuildFile; fileRef = 120608B920BF783C009B0450 /* LDLocalConfigDataHandel.m */; };
 		120608E220BF783D009B0450 /* LDDatePikerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120608BA20BF783C009B0450 /* LDDatePikerController.m */; };
 		120608E320BF783D009B0450 /* LLNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 120608BB20BF783D009B0450 /* LLNetWorkManager.m */; };
+		1213D94920D9DCBE00D49E17 /* LLCellConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1213D94820D9DCBE00D49E17 /* LLCellConfig.h */; };
 		12150FE320A985B90083A6FA /* LLUICreator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12150FD920A985B90083A6FA /* LLUICreator.framework */; };
 		12150FE820A985B90083A6FA /* LLUICreatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12150FE720A985B90083A6FA /* LLUICreatorTests.m */; };
 		1215100420A985D40083A6FA /* LLTextViewCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 12150FF320A985D30083A6FA /* LLTextViewCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -72,6 +72,8 @@
 		127D504220AE6CC700AB0043 /* LLLineCharContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 127D503C20AE6CC700AB0043 /* LLLineCharContentView.h */; };
 		127D504320AE6CC700AB0043 /* LLineCharBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 127D503D20AE6CC700AB0043 /* LLineCharBaseView.m */; };
 		127D504420AE6CC700AB0043 /* LLineCharBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 127D503E20AE6CC700AB0043 /* LLineCharBaseView.h */; };
+		127FE73B2108586600AD5222 /* LLRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 127FE7392108586600AD5222 /* LLRoute.h */; };
+		127FE73C2108586600AD5222 /* LLRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 127FE73A2108586600AD5222 /* LLRoute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,7 +105,6 @@
 		120608A320BF7839009B0450 /* LLNetWorkWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNetWorkWidget.h; sourceTree = "<group>"; };
 		120608A420BF7839009B0450 /* LDTextFieldHandel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTextFieldHandel.h; sourceTree = "<group>"; };
 		120608A520BF783A009B0450 /* UILabel+YBAttributeTextTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YBAttributeTextTapAction.h"; sourceTree = "<group>"; };
-		120608A620BF783A009B0450 /* LDPlacehodelTextVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDPlacehodelTextVIew.m; sourceTree = "<group>"; };
 		120608A720BF783A009B0450 /* UIView+ConvenientInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ConvenientInit.h"; sourceTree = "<group>"; };
 		120608A820BF783A009B0450 /* LLNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNetWorkManager.h; sourceTree = "<group>"; };
 		120608A920BF783A009B0450 /* LLCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCycleScrollView.h; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 		120608B920BF783C009B0450 /* LDLocalConfigDataHandel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDLocalConfigDataHandel.m; sourceTree = "<group>"; };
 		120608BA20BF783C009B0450 /* LDDatePikerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDatePikerController.m; sourceTree = "<group>"; };
 		120608BB20BF783D009B0450 /* LLNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNetWorkManager.m; sourceTree = "<group>"; };
+		1213D94820D9DCBE00D49E17 /* LLCellConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLCellConfig.h; sourceTree = "<group>"; };
 		12150FD920A985B90083A6FA /* LLUICreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLUICreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12150FDD20A985B90083A6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12150FE220A985B90083A6FA /* LLUICreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLUICreatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +155,8 @@
 		127D503C20AE6CC700AB0043 /* LLLineCharContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLineCharContentView.h; sourceTree = "<group>"; };
 		127D503D20AE6CC700AB0043 /* LLineCharBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLineCharBaseView.m; sourceTree = "<group>"; };
 		127D503E20AE6CC700AB0043 /* LLineCharBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLineCharBaseView.h; sourceTree = "<group>"; };
+		127FE7392108586600AD5222 /* LLRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLRoute.h; sourceTree = "<group>"; };
+		127FE73A2108586600AD5222 /* LLRoute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLRoute.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +203,8 @@
 				1215100320A985D40083A6FA /* LLButtonCreator.m */,
 				12150FFD20A985D30083A6FA /* LLLableCreator.h */,
 				1215100020A985D40083A6FA /* LLLableCreator.m */,
+				127FE7392108586600AD5222 /* LLRoute.h */,
+				127FE73A2108586600AD5222 /* LLRoute.m */,
 				1206089D20BF7839009B0450 /* CustomPresentionConrtroller.h */,
 				120608B420BF783C009B0450 /* CustomPresentionConrtroller.m */,
 				120608B620BF783C009B0450 /* LDAlertViewController.h */,
@@ -212,7 +218,6 @@
 				120608BA20BF783C009B0450 /* LDDatePikerController.m */,
 				1206089B20BF7838009B0450 /* LDLocalConfigDataHandel.h */,
 				120608B920BF783C009B0450 /* LDLocalConfigDataHandel.m */,
-				120608A620BF783A009B0450 /* LDPlacehodelTextVIew.m */,
 				120608A220BF7839009B0450 /* LDTableViewHandel.h */,
 				1206089C20BF7838009B0450 /* LDTableViewHandel.m */,
 				120608A420BF7839009B0450 /* LDTextFieldHandel.h */,
@@ -248,6 +253,7 @@
 				12150FFA20A985D30083A6FA /* LLUICreator.h */,
 				12150FFC20A985D30083A6FA /* LLViewCreator.h */,
 				12150FFF20A985D40083A6FA /* LLViewCreator.m */,
+				1213D94820D9DCBE00D49E17 /* LLCellConfig.h */,
 				12150FF420A985D30083A6FA /* UIButton+LLPositionAdjust.h */,
 				12150FFB20A985D30083A6FA /* UIButton+LLPositionAdjust.m */,
 				12150FF920A985D30083A6FA /* UITextView+ZWPlaceHolder.h */,
@@ -290,6 +296,7 @@
 				127D504220AE6CC700AB0043 /* LLLineCharContentView.h in Headers */,
 				120608C320BF783D009B0450 /* LDLocalConfigDataHandel.h in Headers */,
 				120608CD20BF783D009B0450 /* UILabel+YBAttributeTextTapAction.h in Headers */,
+				1213D94920D9DCBE00D49E17 /* LLCellConfig.h in Headers */,
 				127D504420AE6CC700AB0043 /* LLineCharBaseView.h in Headers */,
 				120608D520BF783D009B0450 /* UITextField+LDDynamicText.h in Headers */,
 				120608CC20BF783D009B0450 /* LDTextFieldHandel.h in Headers */,
@@ -310,6 +317,7 @@
 				1215100520A985D40083A6FA /* UIButton+LLPositionAdjust.h in Headers */,
 				120608C620BF783D009B0450 /* LLPhotoPiker.h in Headers */,
 				127D503F20AE6CC700AB0043 /* LLLineChartView.h in Headers */,
+				127FE73B2108586600AD5222 /* LLRoute.h in Headers */,
 				1215100A20A985D40083A6FA /* UITextView+ZWPlaceHolder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +420,7 @@
 			files = (
 				120608D620BF783D009B0450 /* UITextField+LDDynamicText.m in Sources */,
 				120608C820BF783D009B0450 /* LDTextFieldHandel.m in Sources */,
+				127FE73C2108586600AD5222 /* LLRoute.m in Sources */,
 				120608DF20BF783D009B0450 /* LDAlertViewController.m in Sources */,
 				120608D420BF783D009B0450 /* LLPresentionConrtroller.m in Sources */,
 				120608DD20BF783D009B0450 /* UILabel+YBAttributeTextTapAction.m in Sources */,
@@ -439,7 +448,6 @@
 				1215100F20A985D40083A6FA /* LLTextViewCreator.m in Sources */,
 				120608C420BF783D009B0450 /* LDTableViewHandel.m in Sources */,
 				120608BC20BF783D009B0450 /* LLPhotoPiker.m in Sources */,
-				120608CE20BF783D009B0450 /* LDPlacehodelTextVIew.m in Sources */,
 				1215100620A985D40083A6FA /* LLTableViewCreator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -75,7 +75,7 @@
     NSAssert(clazz != nil, @"class not found");
     Class viewControllerClass = clazz;
     id  controller =[[viewControllerClass alloc]init];
-    if (![[controller class] isSubclassOfClass:[UIViewController class]]) return nil;
+    if (![controller isKindOfClass:[UIViewController class]]) return nil;
     [self ll_setPropertyWithTarget:controller paramers:paramer];
     
     return controller;

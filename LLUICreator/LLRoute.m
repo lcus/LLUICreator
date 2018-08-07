@@ -11,7 +11,6 @@
 @import ObjectiveC.runtime;
 @import ObjectiveC.message;
 
-
 #define LOCK(lock) dispatch_semaphore_wait(lock, DISPATCH_TIME_FOREVER);
 #define UNLOCK(lock) dispatch_semaphore_signal(lock);
 
@@ -103,8 +102,6 @@
 +(void)ll_openWithURL:(NSURL*)url{
     
 //    NSString *scheme = url.scheme;
-    
-    
     
 }
 
